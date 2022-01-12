@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+
+
+    <style>
+
+        body {
+            background-color: lightgreen;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li>a {
+            padding: 15px;
+            background-color: lightgray;
+            text-decoration: none;
+        }
+
+        li>a:hover {
+            background-color: lightslategray;
+        }
+
+        @media screen and (max-width: 1024px) {
+        a.ex1 {
+        display: none;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+        a.ex2 {
+        display: none;
+            }
+        }
+        @media screen and (max-width: 480px) {
+        a.ex3 {
+        display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+
+
+<ul>
+    <li><a href="">Tarjeta de video</a></li>
+    <li><a href="" class="ex3">Procesador</a></li>
+    <li><a href="" class="ex2">Disco Duro</a></li>
+    <li><a href="" class="ex1">Fuente de alimentacion</a></li>
+</ul>
+
+</body>
+</html>
